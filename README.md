@@ -12,4 +12,3 @@ Imagery Analysis for Mask Detection built with YOLOv5 using Deep Learning to det
 
 Example Augmentation images
 
-![Dn_093_cloth_text_1](https://user-images.githubusercontent.com/93254568/147441244-9d104144-32dc-4eae-b78f-0849705cf24d.jpg)

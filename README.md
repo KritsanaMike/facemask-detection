@@ -11,4 +11,3 @@ Imagery Analysis for Mask Detection built with YOLOv5 using Deep Learning to det
 - Augmentation facemask images base on dataset form www..... and using MaskTheFace technique https://github.com/aqeelanwar/MaskTheFace to make new facemask images.
 
 Example Augmentation images
-

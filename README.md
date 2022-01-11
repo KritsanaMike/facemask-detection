@@ -12,6 +12,7 @@ Imagery Analysis for Mask Detection built with YOLOv5 using Deep Learning to det
 
 Example Real images
 
+![Picture1](https://github.com/KritsanaMike/facemask-detection/blob/36c7974a7b78ec583d5b627dffbbe11c0521f4fd/Example%20Images/Picture1.jpg)
 
 Example Augmentation images
 

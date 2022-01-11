@@ -26,7 +26,7 @@ cd facemask-detection
 pip install -r requirement.txt #install library
 ```
 ## Training
-1. Before trainig we have to create the new derectory for dataset. 
+1. Before trainig we have to create the new derectory in foder "data" to put the dataset
 ```
 |- data
     |-- dataset

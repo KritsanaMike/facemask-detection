@@ -25,3 +25,17 @@ git clone https://github.com/KritsanaMike/facemask-detection.git #clone project
 cd facemask-detection
 pip install -r requirement.txt #install library
 ```
+## Training
+1. Before trainig we have to create the new derectory for dataset. 
+```
+|- data
+    |-- dataset
+        |-- images
+             |-- train
+             |-- test
+             |-- val
+        |-- labels
+             |-- train
+             |-- test
+             |-- val
+ ```

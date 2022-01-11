@@ -45,6 +45,7 @@ python train.py --data facemask.yaml --cfg yolov5s.yaml --weights 'runs/train/50
                                            
  ```
  3. After finished trainig the model we will get the new weight in train folder. and result from trining such as confusion_matrix, precision, recall graph etc.
+<img width="720" alt="portfolio_view" src="https://github.com/KritsanaMike/facemask-detection/blob/e43e1248905a55c13193d17fcdd37e866f30f0ed/Example%20Images/weight.PNG">
 
 <img width="720" alt="portfolio_view" src="https://github.com/KritsanaMike/facemask-detection/blob/bf60af9d32b3776b469762cefb2dda44f8352347/runs/train/50epoch_real_image_model_s/confusion_matrix.png">
 

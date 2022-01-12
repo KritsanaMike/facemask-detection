@@ -23,7 +23,7 @@ Clone repo and install requirements.txt in a Python>=3.6.0 environment, includin
 ```
 git clone https://github.com/KritsanaMike/facemask-detection.git #clone project
 cd facemask-detection
-pip install -r requirement.txt #install library
+pip install -r requirements.txt #install library
 ```
 ## Training
 1. Before trainig we have to create the new derectory in foder "data" to put the dataset
@@ -41,14 +41,15 @@ pip install -r requirement.txt #install library
  ```
  2. Train model follow command below. In this project we use facmask.yaml to call dataset ans train on yolov5s. And use weight from best training. Batch sizes is 16 and images sizes is 640 px 
  ```
-python train.py --data facemask.yaml --cfg yolov5s.yaml --weights 'runs/train/50epoch_real_image_model_s/weights/best.pt' --batch-size 16 --img 640
+python train.py --epoch 50 --data facemask.yaml --cfg yolov5s.yaml --weights runs/train/50epoch_real_image_model_s/weights/best.pt --batch-size 16 --img 640
                                            
  ```
  3. After finished trainig the model we will get the new weight in train folder. and result from trining such as confusion_matrix, precision, recall graph etc.
+<img width="640" alt="portfolio_view" src="https://github.com/KritsanaMike/facemask-detection/blob/e43e1248905a55c13193d17fcdd37e866f30f0ed/Example%20Images/weight.PNG">
 
-<img width="720" alt="portfolio_view" src="https://github.com/KritsanaMike/facemask-detection/blob/bf60af9d32b3776b469762cefb2dda44f8352347/runs/train/50epoch_real_image_model_s/confusion_matrix.png">
+<img width="640" alt="portfolio_view" src="https://github.com/KritsanaMike/facemask-detection/blob/bf60af9d32b3776b469762cefb2dda44f8352347/runs/train/50epoch_real_image_model_s/confusion_matrix.png">
 
-<img width="720" alt="portfolio_view" src="https://github.com/KritsanaMike/facemask-detection/blob/bf60af9d32b3776b469762cefb2dda44f8352347/runs/train/50epoch_real_image_model_s/P_curve.png">
+<img width="640" alt="portfolio_view" src="https://github.com/KritsanaMike/facemask-detection/blob/bf60af9d32b3776b469762cefb2dda44f8352347/runs/train/50epoch_real_image_model_s/P_curve.png">
 
-<img width="720" alt="portfolio_view" src="https://github.com/KritsanaMike/facemask-detection/blob/bf60af9d32b3776b469762cefb2dda44f8352347/runs/train/50epoch_real_image_model_s/R_curve.png">
+<img width="640" alt="portfolio_view" src="https://github.com/KritsanaMike/facemask-detection/blob/bf60af9d32b3776b469762cefb2dda44f8352347/runs/train/50epoch_real_image_model_s/R_curve.png">
  

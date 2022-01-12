@@ -23,7 +23,7 @@ Clone repo and install requirements.txt in a Python>=3.6.0 environment, includin
 ```
 git clone https://github.com/KritsanaMike/facemask-detection.git #clone project
 cd facemask-detection
-pip install -r requirement.txt #install library
+pip install -r requirements.txt #install library
 ```
 ## Training
 1. Before trainig we have to create the new derectory in foder "data" to put the dataset

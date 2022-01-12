@@ -41,7 +41,7 @@ pip install -r requirements.txt #install library
  ```
  2. Train model follow command below. In this project we use facmask.yaml to call dataset ans train on yolov5s. And use weight from best training. Batch sizes is 16 and images sizes is 640 px 
  ```
-python train.py --epoch 50 --data facemask.yaml --cfg yolov5s.yaml --weights 'runs/train/50epoch_real_image_model_s/weights/best.pt' --batch-size 16 --img 640
+python train.py --epoch 50 --data facemask.yaml --cfg yolov5s.yaml --weights runs/train/50epoch_real_image_model_s/weights/best.pt --batch-size 16 --img 640
                                            
  ```
  3. After finished trainig the model we will get the new weight in train folder. and result from trining such as confusion_matrix, precision, recall graph etc.

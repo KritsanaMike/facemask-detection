@@ -1,7 +1,7 @@
 
-train: ./data/dataset/select_half_tt/images/train/  # train images 
-val: ./data/dataset/select_half_tt/images/val/  # val images 
-test: ./data/dataset/select_half_tt/images/test/ # test images 
+train: ./data/dataset/images/train/  # train images 
+val: ./data/dataset/images/val/  # val images 
+test: ./data/dataset/images/test/ # test images 
 
 # Classes
 nc: 5  # number of classes

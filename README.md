@@ -53,3 +53,4 @@ python train.py --epoch 50 --data facemask.yaml --cfg yolov5s.yaml --weights run
 
 <img width="640" alt="portfolio_view" src="https://github.com/KritsanaMike/facemask-detection/blob/bf60af9d32b3776b469762cefb2dda44f8352347/runs/train/50epoch_real_image_model_s/R_curve.png">
  
+<img width="640" alt="portfolio_view" src="https://github.com/KritsanaMike/facemask-detection/blob/735fe1db9730ad3b1c93e34f211736a4e74cc3b7/runs/train/50epoch_real_image_model_s/PR_curve.png">

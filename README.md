@@ -26,7 +26,9 @@ cd facemask-detection
 pip install -r requirements.txt #install library
 ```
 ## Training
-1. Before trainig we have to create the new derectory in foder "data" to put the dataset
+1.Before trainig we have to labeling dataset using Makesence.AI https://www.makesense.ai/ Example images as below.
+
+2.create the new derectory in foder "data" to put the dataset
 ```
 |- data
     |-- dataset

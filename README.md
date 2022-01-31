@@ -12,11 +12,11 @@ Imagery Analysis for Mask Detection Develop with YOLOv5 using Deep Learning to d
 
 Example Real images
 
-![realmask2](https://github.com/KritsanaMike/facemask-detection/blob/f2f5647c230cc2f4d508ef4d12ec76228b9b3714/Example%20Images/realmask2.png)
+<img width="720" alt="portfolio_view" src="https://github.com/KritsanaMike/facemask-detection/blob/f2f5647c230cc2f4d508ef4d12ec76228b9b3714/Example%20Images/realmask2.png">
 
 Example Augmentation images
 
-![Picture1](https://github.com/KritsanaMike/facemask-detection/blob/36c7974a7b78ec583d5b627dffbbe11c0521f4fd/Example%20Images/Picture1.png)
+<img width="720" alt="portfolio_view" src="https://github.com/KritsanaMike/facemask-detection/blob/03ca3e8c25f25af2bcdff02e42a606f4733d6dc9/Example%20Images/augment.JPG">
 
 ## Install
 Clone repo and install requirements.txt in a Python>=3.6.0 environment, including PyTorch>=1.7.
@@ -50,11 +50,3 @@ python train.py --epoch 50 --data facemask.yaml --cfg yolov5s.yaml --weights run
  ```
 4. After finished trainig the model we will get the new weight in train folder. and result from trining such as confusion_matrix, precision, recall graph etc.
 <img width="640" alt="portfolio_view" src="https://github.com/KritsanaMike/facemask-detection/blob/e43e1248905a55c13193d17fcdd37e866f30f0ed/Example%20Images/weight.PNG">
-
-<img width="640" alt="portfolio_view" src="https://github.com/KritsanaMike/facemask-detection/blob/bf60af9d32b3776b469762cefb2dda44f8352347/runs/train/50epoch_real_image_model_s/confusion_matrix.png">
-
-<img width="640" alt="portfolio_view" src="https://github.com/KritsanaMike/facemask-detection/blob/bf60af9d32b3776b469762cefb2dda44f8352347/runs/train/50epoch_real_image_model_s/P_curve.png">
-
-<img width="640" alt="portfolio_view" src="https://github.com/KritsanaMike/facemask-detection/blob/bf60af9d32b3776b469762cefb2dda44f8352347/runs/train/50epoch_real_image_model_s/R_curve.png">
- 
-<img width="640" alt="portfolio_view" src="https://github.com/KritsanaMike/facemask-detection/blob/735fe1db9730ad3b1c93e34f211736a4e74cc3b7/runs/train/50epoch_real_image_model_s/PR_curve.png">

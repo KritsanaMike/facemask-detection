@@ -51,7 +51,7 @@ pip install -r requirements.txt #install library
              |-- val
                 |-- img04.txt
  ```
-3. Train model follow command below. In this project we use facmask.yaml to call dataset ans train on yolov5s. And use weight from best training. Batch sizes is 16 and images sizes is 640 px 
+3. Train model follow command below. In this project we use facmask.yaml to call dataset ans train on yolov5s. And use weight from best training. Batch sizes is 16 and images sizes is 640 px. If you want to train with custom data you can follow this documentation https://docs.ultralytics.com/tutorials/train-custom-datasets/
  ```
 python train.py --epoch 50 --data facemask.yaml --cfg yolov5s.yaml --weights runs/train/50epoch_real_image_model_s/weights/best.pt --batch-size 16 --img 640
                                            

@@ -28,7 +28,14 @@ pip install -r requirements.txt #install library
 ## Training
 1. Before trainig we have to labeling dataset using Makesence.AI https://www.makesense.ai/ Example images as below.
 
-<img width="640" alt="portfolio_view" src="https://github.com/KritsanaMike/facemask-detection/blob/3e089e5932b2e4d5a703f9f112075ef1a5d2392d/Example%20Images/labeling.png">
+<img width="520" alt="portfolio_view" src="https://github.com/KritsanaMike/facemask-detection/blob/2cfe63a9fce03868f3fc5c411f104be366892d55/Example%20Images/surgical.png">
+<img width="520" alt="portfolio_view" src="https://github.com/KritsanaMike/facemask-detection/blob/2cfe63a9fce03868f3fc5c411f104be366892d55/Example%20Images/n95.png">
+<img width="520" alt="portfolio_view" src="https://github.com/KritsanaMike/facemask-detection/blob/2cfe63a9fce03868f3fc5c411f104be366892d55/Example%20Images/homemade.png">
+<img width="520" alt="portfolio_view" src="https://github.com/KritsanaMike/facemask-detection/blob/2cfe63a9fce03868f3fc5c411f104be366892d55/Example%20Images/incorrect.png">
+<img width="520" alt="portfolio_view" src="https://github.com/KritsanaMike/facemask-detection/blob/2cfe63a9fce03868f3fc5c411f104be366892d55/Example%20Images/nomask.png">
+
+
+
 
 2. create the new derectory in foder "data" to put the dataset
 ```

@@ -36,12 +36,20 @@ pip install -r requirements.txt #install library
     |-- dataset
         |-- images
              |-- train
+                |-- img01.jpg
+                |-- img02.jpg
              |-- test
+                |-- img03.jpg
              |-- val
+                |-- img04.jpg
         |-- labels
              |-- train
+                |-- img01.txt
+                |-- img02.txt
              |-- test
+                |-- img03.txt
              |-- val
+                |-- img04.txt
  ```
 3. Train model follow command below. In this project we use facmask.yaml to call dataset ans train on yolov5s. And use weight from best training. Batch sizes is 16 and images sizes is 640 px 
  ```

@@ -1,14 +1,14 @@
 # facemask-detection
-Imagery Analysis for Mask Detection Develop with YOLOv5 using Deep Learning to detect facemask and identify type of mask in 5 class. 
-- Surgical
+Imagery analysis for mask detection developed with YOLOv5 to detect and identify different types of mask wearers: 
+- surgical
 - N95
-- Homemade
-- Incorrect
-- No_mask
+- homemade
+- incorrect warn
+- no mask
 
 ## Dataset
-- Real facemask images from internet 1108 images
-- Augmentation facemask images base on dataset form https://gtanisik.github.io/projects/hii.html and using MaskTheFace technique https://github.com/aqeelanwar/MaskTheFace to make new facemask images.
+- 1108 facemask images collected from the internet 
+- augmentated facemask images based on dataset form https://gtanisik.github.io/projects/hii.html and using MaskTheFace technique https://github.com/aqeelanwar/MaskTheFace to create new images.
 
 Example Real images
 
